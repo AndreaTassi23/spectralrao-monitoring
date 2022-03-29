@@ -9,7 +9,7 @@ The window size parameter given by the user is required to define an odd-sized s
 
 The parameter "na.tolerance" determines the algorithm's behavior when encountering Not a Number (NaN) values in the input image. This parameter represents the minimum number of finite values accepted, enabling the calculation of the RaoQ in any given rolling window
 
-
+There are two folders for a quick implementation of the Rao's Q index using both the "classic" and the "multidimensional" approaches.
 
 A function called threshold_method allowed to define the threshold using the secant method. This is defined using two methods available in the Python package: calculateDistance used to calculate the distance between two points. It is mandatory to compute the threshold_method to determine the interest value to define the limit to certificate a change. This last method requires as input the NumPy type difference between the RaoQ for two periods of interest, being the results is a binary map (Change-NoChange)
 
